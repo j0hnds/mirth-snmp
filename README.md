@@ -83,7 +83,7 @@ are the steps you can use to create the source package.
 2. Run the package.sh script. There are no arguments, just run it.
 
 The source tar-ball will be created in the base directory of this
-project: mirth_snmp-<version>.tar.bz2.
+project: mirth_snmp-&lt;version&gt;.tar.bz2.
 
 That's all.
 
