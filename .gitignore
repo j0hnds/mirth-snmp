@@ -1,0 +1,6 @@
+# Vim Junk
+*.swp
+
+# Ignore all support files
+support
+*.bz2

@@ -1,0 +1,31 @@
+---
+# 
+# Specify the location of the Mirth Connect configuration
+# file that contains the credentials for the database
+# connection.
+#
+mirth_config: /opt/mirthconnect/conf/mirth.properties
+
+# 
+# The root OID for the sub-agent. Change this to match
+# your enterprise's OID.
+#
+root_oid: '.1.3.6.1.4.1.8072.9999.9999'
+
+# 
+# Set the OID number to use for this sub-agent
+#
+oid_number: 11
+
+# 
+# List the channels that you want message counts for.
+# Use the 'id' column of the 'CHANNEL' table to identify
+# the channels you want to analyze. The value for each
+# of the entries is the friendly name for the channel. 
+# Typically, this will identify the source of the 
+# messages coming in through the channel.
+#
+channels:
+  'afaddd1c-f33c-4fa7-be48-c340e318f2b4': signature
+  'ab1ecbf2-e49b-4399-a71d-96c03d482b31': lcca
+  
